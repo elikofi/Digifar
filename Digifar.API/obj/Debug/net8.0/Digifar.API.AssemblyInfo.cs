@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Digifar.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9be0c6446780b00a2f1cac621c9efc1ed39bd2f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Digifar.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Digifar.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
