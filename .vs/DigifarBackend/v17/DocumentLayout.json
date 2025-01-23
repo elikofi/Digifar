@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\common\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\common\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Program.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Program.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Program.cs",
+              "RelativeToolTip": "Digifar.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:49:15.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Common\\DependencyInjection\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Common\\DependencyInjection\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Common\\DependencyInjection\\DependencyInjection.cs",
+              "RelativeToolTip": "Digifar.API\\Common\\DependencyInjection\\DependencyInjection.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:41:37.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "Digifar.API\\Models\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:14:05.342Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

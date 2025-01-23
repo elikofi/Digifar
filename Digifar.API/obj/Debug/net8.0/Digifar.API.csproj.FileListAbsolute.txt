@@ -133,3 +133,9 @@ C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\obj\Debu
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\obj\Debug\net8.0\Digifar.API.pdb
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\obj\Debug\net8.0\Digifar.API.genruntimeconfig.cache
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\obj\Debug\net8.0\ref\Digifar.API.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Mapster.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Newtonsoft.Json.dll
