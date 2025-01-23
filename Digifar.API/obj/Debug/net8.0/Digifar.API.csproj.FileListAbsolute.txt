@@ -139,3 +139,7 @@ C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debu
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\MediatR.dll
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
