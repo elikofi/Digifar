@@ -6,8 +6,8 @@ namespace Digifar.API.Data
 {
     public class DigifarDbContext : IdentityDbContext<User>
     {
-        public DigifarDbContext(DbContextOptions<DigifarDbContext> dbContextOptions)
-            : base(dbContextOptions)
+        public DigifarDbContext(DbContextOptions<DigifarDbContext> options)
+            : base(options)
         {
         }
 
@@ -16,10 +16,5 @@ namespace Digifar.API.Data
             optionsBuilder.EnableSensitiveDataLogging();
         }
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-
-        }
     }
 }

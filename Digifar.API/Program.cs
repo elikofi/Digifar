@@ -10,7 +10,9 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDI(builder.Configuration);
+builder.Services
+    .AddDI()
+    .AddJWT(builder.Configuration);
 
 
 builder.Services.AddControllers();
