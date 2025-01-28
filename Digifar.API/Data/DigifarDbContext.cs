@@ -1,4 +1,5 @@
-﻿using Digifar.API.Models.Entities;
+﻿using Digifar.API.Models.DTOs;
+using Digifar.API.Models.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,5 +17,6 @@ namespace Digifar.API.Data
             optionsBuilder.EnableSensitiveDataLogging();
         }
 
+        public DbSet<OtpVerification> Otps {  get; set; }
     }
 }
