@@ -1,6 +1,6 @@
 ﻿namespace Digifar.API.Models.DTOs
 {
-    public class OtpVerification
+    public class OtpRecord
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string? PhoneNumber { get; set; }

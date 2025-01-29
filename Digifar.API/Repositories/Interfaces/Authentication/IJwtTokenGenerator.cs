@@ -4,6 +4,6 @@ namespace Digifar.API.Repositories.Interfaces.Authentication
 {
     public interface IJwtTokenGenerator
     {
-        string GenerateToken(UserDTO user);
+        string GenerateToken(string phoneNumber);   
     }
 }

@@ -16,7 +16,13 @@ namespace Digifar.API.Data
         {
             optionsBuilder.EnableSensitiveDataLogging();
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<OtpRecord>()
+                .HasIndex(o => o.PhoneNumber)
+                .IsUnique();
+        }
 
-        public DbSet<OtpVerification> Otps {  get; set; }
+        public DbSet<OtpRecord> Otps {  get; set; }
     }
 }
