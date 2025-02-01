@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Migrations\\20250128103918_Otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digifar.API\\Migrations\\20250128103918_Otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\repositories\\implementation\\usermanagement\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\repositories\\implementation\\usermanagement\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Migrations\\20250128103505_Otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digifar.API\\Migrations\\20250128103505_Otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Migrations\\20250128102715_OtpVerification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digifar.API\\Migrations\\20250128102715_OtpVerification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\data\\digifardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\data\\digifardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\models\\dtos\\otpverification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\models\\dtos\\otpverification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\common\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\common\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\common\\dependencyinjection\\jwtdependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\common\\dependencyinjection\\jwtdependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\common\\roles\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\common\\roles\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\repositories\\implementation\\authentication\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\repositories\\implementation\\authentication\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\repositories\\interfaces\\usermanagement\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\repositories\\interfaces\\usermanagement\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\repositories\\implementation\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\repositories\\implementation\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,84 +54,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250128103918_Otp.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Migrations\\20250128103918_Otp.cs",
-              "RelativeDocumentMoniker": "Digifar.API\\Migrations\\20250128103918_Otp.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Migrations\\20250128103918_Otp.cs",
-              "RelativeToolTip": "Digifar.API\\Migrations\\20250128103918_Otp.cs",
-              "ViewState": "AgIAADYAAAAAAAAnnt0TwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "JWTDependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Common\\DependencyInjection\\JWTDependencyInjection.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Common\\DependencyInjection\\JWTDependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Common\\DependencyInjection\\JWTDependencyInjection.cs",
+              "RelativeToolTip": "Digifar.API\\Common\\DependencyInjection\\JWTDependencyInjection.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T10:39:18.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250128103505_Otp.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Migrations\\20250128103505_Otp.cs",
-              "RelativeDocumentMoniker": "Digifar.API\\Migrations\\20250128103505_Otp.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Migrations\\20250128103505_Otp.cs",
-              "RelativeToolTip": "Digifar.API\\Migrations\\20250128103505_Otp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T10:35:05.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250128102715_OtpVerification.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Migrations\\20250128102715_OtpVerification.cs",
-              "RelativeDocumentMoniker": "Digifar.API\\Migrations\\20250128102715_OtpVerification.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Migrations\\20250128102715_OtpVerification.cs",
-              "RelativeToolTip": "Digifar.API\\Migrations\\20250128102715_OtpVerification.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwOcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T10:27:15.561Z",
+              "WhenOpened": "2025-02-01T15:21:26.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DigifarDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Data\\DigifarDbContext.cs",
-              "RelativeDocumentMoniker": "Digifar.API\\Data\\DigifarDbContext.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Data\\DigifarDbContext.cs",
-              "RelativeToolTip": "Digifar.API\\Data\\DigifarDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Common\\DependencyInjection\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Common\\DependencyInjection\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Common\\DependencyInjection\\DependencyInjection.cs",
+              "RelativeToolTip": "Digifar.API\\Common\\DependencyInjection\\DependencyInjection.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T09:46:17.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Models\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Digifar.API\\Models\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Models\\Entities\\User.cs",
-              "RelativeToolTip": "Digifar.API\\Models\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T15:07:08.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OtpVerification.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Models\\DTOs\\OtpVerification.cs",
-              "RelativeDocumentMoniker": "Digifar.API\\Models\\DTOs\\OtpVerification.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Models\\DTOs\\OtpVerification.cs",
-              "RelativeToolTip": "Digifar.API\\Models\\DTOs\\OtpVerification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T15:02:32.036Z",
+              "WhenOpened": "2025-02-01T15:21:19.355Z",
               "EditorCaption": ""
             },
             {
@@ -126,9 +90,113 @@
               "RelativeDocumentMoniker": "Digifar.API\\Models\\DTOs\\UserDTO.cs",
               "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Models\\DTOs\\UserDTO.cs",
               "RelativeToolTip": "Digifar.API\\Models\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T15:11:46.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Common\\Roles\\UserRoles.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Common\\Roles\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Common\\Roles\\UserRoles.cs",
+              "RelativeToolTip": "Digifar.API\\Common\\Roles\\UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T15:10:20.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Digifar.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA0wBsAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:50:57.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Repositories\\Implementation\\UserManagement\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Repositories\\Implementation\\UserManagement\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Repositories\\Implementation\\UserManagement\\UserRepository.cs",
+              "RelativeToolTip": "Digifar.API\\Repositories\\Implementation\\UserManagement\\UserRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:31:32.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DigifarDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Data\\DigifarDbContext.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Data\\DigifarDbContext.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Data\\DigifarDbContext.cs",
+              "RelativeToolTip": "Digifar.API\\Data\\DigifarDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T15:26:24.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "Digifar.API\\Models\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T15:01:45.835Z",
+              "WhenOpened": "2025-02-01T15:26:43.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Repositories\\Interfaces\\UserManagement\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Repositories\\Interfaces\\UserManagement\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Repositories\\Interfaces\\UserManagement\\IUserRepository.cs",
+              "RelativeToolTip": "Digifar.API\\Repositories\\Interfaces\\UserManagement\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:31:27.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Repositories\\Implementation\\Authentication\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Repositories\\Implementation\\Authentication\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Repositories\\Implementation\\Authentication\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "Digifar.API\\Repositories\\Implementation\\Authentication\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:28:36.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OtpService.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Repositories\\Implementation\\Authentication\\OtpService.cs",
+              "RelativeDocumentMoniker": "Digifar.API\\Repositories\\Implementation\\Authentication\\OtpService.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Repositories\\Implementation\\Authentication\\OtpService.cs",
+              "RelativeToolTip": "Digifar.API\\Repositories\\Implementation\\Authentication\\OtpService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwBIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:28:21.395Z",
               "EditorCaption": ""
             }
           ]

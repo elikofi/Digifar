@@ -18,6 +18,7 @@ namespace Digifar.API.Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<OtpRecord>()
                 .HasIndex(o => o.PhoneNumber)
                 .IsUnique();

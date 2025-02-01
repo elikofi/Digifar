@@ -14,6 +14,8 @@ using Digifar.API.Models.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Digifar.API.Data;
+using Digifar.API.Repositories.Interfaces.UserManagement;
+using Digifar.API.Repositories.Implementation.UserManagement;
 
 
 
@@ -27,6 +29,8 @@ namespace Digifar.API.Common.DependencyInjection
             services.AddMediatR(config => config.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
             services.AddScoped<IMapper, Mapper>();
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+
+            services.AddScoped<IUserRepository, UserRepository>();
 
             return services;
         }

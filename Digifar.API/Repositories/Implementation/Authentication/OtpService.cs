@@ -16,8 +16,9 @@ namespace Digifar.API.Repositories.Implementation.Authentication
         {
             _context = context;
         }
-
+        //I'll move this to the appsettings later.
         private const int OtpExpirationMinutes = 5;
+
 
 
         public static string GenerateOtp()
@@ -33,8 +34,8 @@ namespace Digifar.API.Repositories.Implementation.Authentication
         public async Task<string> RequestOTP(string phoneNumber)
         {
 
-            var numberExists = await _context.Otps.AnyAsync(o => o.PhoneNumber == phoneNumber);
-            if (!numberExists) return "number does not exist.";
+            //var numberExists = await _context.Otps.AnyAsync(o => o.PhoneNumber == phoneNumber);
+            //if (!numberExists) return "number does not exist.";
 
             var otp = GenerateOtp();
 
