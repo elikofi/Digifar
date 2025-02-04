@@ -8,20 +8,16 @@ using System.Security.Cryptography;
 namespace Digifar.Infrastructure.Authentication
 {
 
-    public class OtpService : IOtpService
+    public class OtpService(DigifarDbContext context) : IOtpService
     {
-        private readonly DigifarDbContext _context;
+        private readonly DigifarDbContext _context = context;
 
-        public OtpService(DigifarDbContext context)
-        {
-            _context = context;
-        }
         //I'll move this to the appsettings later.
         private const int OtpExpirationMinutes = 5;
 
 
 
-        public static string GenerateOtp()
+        protected static string GenerateOtp()
         {
             using var rng = RandomNumberGenerator.Create();
             byte[] bytes = new byte[4];
@@ -33,6 +29,13 @@ namespace Digifar.Infrastructure.Authentication
 
         public async Task<Result<string>> RequestOTP(string phoneNumber)
         {
+            var existingOtp = await _context.Otps.FirstOrDefaultAsync(o => o.PhoneNumber == phoneNumber);
+
+            if (existingOtp != null)
+            {
+                _context.Otps.Remove(existingOtp);
+                await _context.SaveChangesAsync();
+            }
 
 
             var otp = GenerateOtp();

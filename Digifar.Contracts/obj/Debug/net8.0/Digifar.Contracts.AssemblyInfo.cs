@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Digifar.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4d2a5e2b35d401e1f3dd60f208b6c18f07df001")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49c6f1fc22cdc845f0fd98624b71ba901c1a8c18")]
 [assembly: System.Reflection.AssemblyProductAttribute("Digifar.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Digifar.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

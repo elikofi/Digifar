@@ -3,5 +3,5 @@ using MediatR;
 
 namespace Digifar.Application.Authentication.UserManagement.Commands.OTP
 {
-    public record RequestOtpCommand(string PhoneNumber): IRequest<Result<string>>;
+    public record VerifyOtpCommand(string PhoneNumber, string Otp): IRequest<Result<bool>>;
 }

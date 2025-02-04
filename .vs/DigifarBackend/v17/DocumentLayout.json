@@ -3,36 +3,51 @@
   "WorkspaceRootPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3681260-A32E-4BD8-ABEE-E28C6EDED2CF}|Digifar.Infrastructure\\Digifar.Infrastructure.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.infrastructure\\repository\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3681260-A32E-4BD8-ABEE-E28C6EDED2CF}|Digifar.Infrastructure\\Digifar.Infrastructure.csproj|solutionrelative:digifar.infrastructure\\repository\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\common\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\common\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.contracts\\authentication\\registeruserrequest.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|solutionrelative:digifar.contracts\\authentication\\registeruserrequest.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\common\\interfaces\\persistence\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\common\\interfaces\\persistence\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3681260-A32E-4BD8-ABEE-E28C6EDED2CF}|Digifar.Infrastructure\\Digifar.Infrastructure.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.infrastructure\\authentication\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3681260-A32E-4BD8-ABEE-E28C6EDED2CF}|Digifar.Infrastructure\\Digifar.Infrastructure.csproj|solutionrelative:digifar.infrastructure\\authentication\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ElijahAmoako\\AppData\\Local\\SourceServer\\1f569efb41c55a15beff58d682486cb015df5e7937c583fd5a688bce41bc021d\\Digifar.API\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\authentication\\usermanagement\\commands\\otp\\requestotpcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\authentication\\usermanagement\\commands\\otp\\requestotpcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\authentication\\usermanagement\\commands\\otp\\requestotpcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\authentication\\usermanagement\\commands\\otp\\requestotpcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.contracts\\authentication\\requestotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|solutionrelative:digifar.contracts\\authentication\\requestotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\authentication\\usermanagement\\commands\\register\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\authentication\\usermanagement\\commands\\register\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\authentication\\usermanagement\\commands\\register\\registerusercommand.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\authentication\\usermanagement\\commands\\register\\registerusercommand.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\common\\interfaces\\authentication\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\common\\interfaces\\authentication\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B713F1-E625-4483-A435-59B56AE1DEA5}|Digifar.Domain\\Digifar.Domain.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.domain\\common\\errors\\errors.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B3B713F1-E625-4483-A435-59B56AE1DEA5}|Digifar.Domain\\Digifar.Domain.csproj|solutionrelative:digifar.domain\\common\\errors\\errors.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\common\\interfaces\\persistence\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\common\\interfaces\\persistence\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\authentication\\usermanagement\\commands\\register\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\authentication\\usermanagement\\commands\\register\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\authentication\\usermanagement\\commands\\register\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\authentication\\usermanagement\\commands\\register\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\authentication\\usermanagement\\commands\\otp\\requestotpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\authentication\\usermanagement\\commands\\otp\\requestotpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,46 +61,46 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Common\\Results\\Result.cs",
-              "RelativeDocumentMoniker": "Digifar.Application\\Common\\Results\\Result.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Common\\Results\\Result.cs",
-              "RelativeToolTip": "Digifar.Application\\Common\\Results\\Result.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\AppData\\Local\\SourceServer\\1f569efb41c55a15beff58d682486cb015df5e7937c583fd5a688bce41bc021d\\Digifar.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\1f569efb41c55a15beff58d682486cb015df5e7937c583fd5a688bce41bc021d\\Digifar.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\AppData\\Local\\SourceServer\\1f569efb41c55a15beff58d682486cb015df5e7937c583fd5a688bce41bc021d\\Digifar.API\\Controllers\\AuthController.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\1f569efb41c55a15beff58d682486cb015df5e7937c583fd5a688bce41bc021d\\Digifar.API\\Controllers\\AuthController.cs [Read Only]",
+              "ViewState": "AgIAABYAAAAAAAAAAAAjwCkAAAAIAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:24:09.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Errors.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Domain\\Common\\Errors\\Errors.cs",
-              "RelativeDocumentMoniker": "Digifar.Domain\\Common\\Errors\\Errors.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Domain\\Common\\Errors\\Errors.cs",
-              "RelativeToolTip": "Digifar.Domain\\Common\\Errors\\Errors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:17:27.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Digifar.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
-              "RelativeToolTip": "Digifar.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:10:36.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:20:11.108Z",
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "RequestOtpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Authentication\\RequestOtpRequest.cs",
+              "RelativeDocumentMoniker": "Digifar.Contracts\\Authentication\\RequestOtpRequest.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Authentication\\RequestOtpRequest.cs",
+              "RelativeToolTip": "Digifar.Contracts\\Authentication\\RequestOtpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:06:16.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestOtpCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommandValidator.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommandValidator.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommandValidator.cs",
+              "RelativeToolTip": "Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:03:24.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RegisterUserCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommandValidator.cs",
               "RelativeDocumentMoniker": "Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommandValidator.cs",
@@ -93,59 +108,111 @@
               "RelativeToolTip": "Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:02:02.318Z",
+              "WhenOpened": "2025-02-04T10:55:46.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Repository\\Users\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Digifar.Infrastructure\\Repository\\Users\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Repository\\Users\\UserRepository.cs",
-              "RelativeToolTip": "Digifar.Infrastructure\\Repository\\Users\\UserRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAQwDMAAAAxAAAAAAAAAA==",
+              "Title": "OtpService.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Authentication\\OtpService.cs",
+              "RelativeDocumentMoniker": "Digifar.Infrastructure\\Authentication\\OtpService.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Authentication\\OtpService.cs",
+              "RelativeToolTip": "Digifar.Infrastructure\\Authentication\\OtpService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:57:33.065Z",
+              "WhenOpened": "2025-02-04T10:42:52.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommand.cs",
-              "RelativeDocumentMoniker": "Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommand.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommand.cs",
-              "RelativeToolTip": "Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IOtpService.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Common\\Interfaces\\Authentication\\IOtpService.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Common\\Interfaces\\Authentication\\IOtpService.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Common\\Interfaces\\Authentication\\IOtpService.cs",
+              "RelativeToolTip": "Digifar.Application\\Common\\Interfaces\\Authentication\\IOtpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:55:49.469Z",
+              "WhenOpened": "2025-02-04T10:42:03.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterUserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Authentication\\RegisterUserRequest.cs",
-              "RelativeDocumentMoniker": "Digifar.Contracts\\Authentication\\RegisterUserRequest.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Authentication\\RegisterUserRequest.cs",
-              "RelativeToolTip": "Digifar.Contracts\\Authentication\\RegisterUserRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
+              "RelativeToolTip": "Digifar.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:55:32.011Z",
+              "WhenOpened": "2025-02-04T10:42:15.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "RequestOtpCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommandHandler.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommandHandler.cs",
+              "RelativeToolTip": "Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:32:23.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Digifar.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Digifar.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAwAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvykAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:50:31.189Z",
+              "WhenOpened": "2025-02-04T10:28:36.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommandHandler.cs",
+              "RelativeToolTip": "Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:32:35.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommand.cs",
+              "RelativeToolTip": "Digifar.Application\\Authentication\\UserManagement\\Commands\\Register\\RegisterUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:31:34.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RequestOtpCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommand.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommand.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommand.cs",
+              "RelativeToolTip": "Digifar.Application\\Authentication\\UserManagement\\Commands\\OTP\\RequestOtpCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:31:18.865Z",
               "EditorCaption": ""
             }
           ]

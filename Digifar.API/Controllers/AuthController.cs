@@ -1,4 +1,5 @@
 ﻿using Digifar.Application.Authentication.Common;
+using Digifar.Application.Authentication.UserManagement.Commands.OTP;
 using Digifar.Application.Authentication.UserManagement.Commands.Register;
 using Digifar.Application.Common.Interfaces.Persistence;
 using Digifar.Contracts.Authentication;
@@ -37,13 +38,17 @@ namespace Digifar.API.Controllers
 
         [HttpPost]
         [Route("ReqOtp")]
-        public async Task<IActionResult> RequestOTP([FromBody] RequestOTPRequest request)
+        public async Task<IActionResult> RequestOTP([FromBody] RequestOtpRequest request)
         {
-            var otpResult = await userRepository.RequestOTP(request.PhoneNumber);
+            var otp = mapper.Map<RequestOtpCommand>(request);
+
+            var otpResult = await mediator.Send(otp);
+
             if (otpResult.Success is false)
             {
                 return BadRequest(otpResult.ErrorMessage);
             }
+            Console.WriteLine(otpResult);
             return Ok(otpResult);
         }
     }

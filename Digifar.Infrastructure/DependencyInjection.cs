@@ -4,6 +4,7 @@ using Digifar.Application.Common.Interfaces.Authentication;
 using Digifar.Application.Common.Interfaces.Persistence;
 using Digifar.Application.Common.Interfaces.Services;
 using Digifar.Domain.Entities;
+using Digifar.Infrastructure.Authentication;
 using Digifar.Infrastructure.Data;
 using Digifar.Infrastructure.Repository.Users;
 using Digifar.Infrastructure.Services;
@@ -26,6 +27,7 @@ namespace Digifar.Infrastructure
 
             services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IOtpService, OtpService>();
 
 
 

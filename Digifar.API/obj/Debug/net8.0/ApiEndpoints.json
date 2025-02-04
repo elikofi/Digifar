@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "Digifar.API.Controllers.AuthController",
+    "Method": "RequestOTP",
+    "RelativePath": "api/Auth/ReqOtp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Digifar.Contracts.Authentication.RequestOtpRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Digifar.API.Controllers.AuthController",
     "Method": "SeedRoles",
     "RelativePath": "api/Auth/SeedRoles",
     "HttpMethod": "POST",
