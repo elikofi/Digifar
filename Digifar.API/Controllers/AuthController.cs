@@ -40,9 +40,9 @@ namespace Digifar.API.Controllers
         [Route("ReqOtp")]
         public async Task<IActionResult> RequestOTP([FromBody] RequestOtpRequest request)
         {
-            var otp = mapper.Map<RequestOtpCommand>(request);
+            var mappedRequest = mapper.Map<RequestOtpCommand>(request);
 
-            var otpResult = await mediator.Send(otp);
+            var otpResult = await mediator.Send(mappedRequest);
 
             if (otpResult.Success is false)
             {
@@ -50,6 +50,22 @@ namespace Digifar.API.Controllers
             }
             Console.WriteLine(otpResult);
             return Ok(otpResult);
+        }
+        
+        [HttpPost]
+        [Route("VerOtp")]
+        public async Task<IActionResult> VerifyOTP([FromBody] VerifyOtpRequest request)
+        {
+            var mappedRequest = mapper.Map<VerifyOtpCommand>(request);
+
+            var verificationResult = await mediator.Send(mappedRequest);
+
+            if (verificationResult.Success is false)
+            {
+                return BadRequest(verificationResult.ErrorMessage);
+            }
+
+            return Ok(verificationResult);
         }
     }
 }

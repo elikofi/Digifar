@@ -45,6 +45,7 @@ namespace Digifar.Infrastructure.Authentication
                 PhoneNumber = phoneNumber,
                 Otp = otp,
                 ExpiryTime = DateTime.UtcNow.AddMinutes(OtpExpirationMinutes)
+                //ExpiryTime = DateTime.UtcNow.AddSeconds(10)
             };
             _context.Otps.Add(otpRecord);
 
@@ -65,7 +66,7 @@ namespace Digifar.Infrastructure.Authentication
                     _context.Otps.Remove(otpRecord);
                     await _context.SaveChangesAsync();
                 }
-                return Result<bool>.ErrorResult("Error occured, unable to verify OTP.");
+                return Result<bool>.ErrorResult("Otp expired, kindly request a new one.");
             }
 
             if (otp == otpRecord.Otp)
@@ -75,7 +76,7 @@ namespace Digifar.Infrastructure.Authentication
                 return Result<bool>.SuccessResult(true);
             }
 
-            return Result<bool>.ErrorResult("Error occured, phonenumber doesn't exist.");
+            return Result<bool>.ErrorResult("Phonenumber doesn't exist.");
         }
     }
 }
