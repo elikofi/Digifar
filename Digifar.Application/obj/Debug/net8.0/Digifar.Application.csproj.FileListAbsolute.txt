@@ -1,0 +1,16 @@
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\obj\Debug\net8.0\Digifar.Application.csproj.AssemblyReference.cache
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\obj\Debug\net8.0\Digifar.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\obj\Debug\net8.0\Digifar.Application.AssemblyInfoInputs.cache
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\obj\Debug\net8.0\Digifar.Application.AssemblyInfo.cs
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\obj\Debug\net8.0\Digifar.Application.csproj.CoreCompileInputs.cache
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\obj\Debug\net8.0\Digifar.Application.sourcelink.json
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\bin\Debug\net8.0\Digifar.Application.deps.json
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\bin\Debug\net8.0\Digifar.Application.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\bin\Debug\net8.0\Digifar.Application.pdb
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\bin\Debug\net8.0\Digifar.Domain.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\bin\Debug\net8.0\Digifar.Domain.pdb
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\obj\Debug\net8.0\Digifar..64DA83AB.Up2Date
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\obj\Debug\net8.0\Digifar.Application.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\obj\Debug\net8.0\refint\Digifar.Application.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\obj\Debug\net8.0\Digifar.Application.pdb
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Application\obj\Debug\net8.0\ref\Digifar.Application.dll

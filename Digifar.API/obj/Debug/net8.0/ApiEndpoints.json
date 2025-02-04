@@ -1,18 +1,28 @@
 [
   {
     "ContainingType": "Digifar.API.Controllers.AuthController",
-    "Method": "Register",
+    "Method": "RegisterUser",
     "RelativePath": "api/Auth/Register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "Digifar.API.Models.DTOs.UserDTO",
+        "Name": "request",
+        "Type": "Digifar.Contracts.Authentication.RegisterUserRequest",
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Digifar.API.Controllers.AuthController",
+    "Method": "SeedRoles",
+    "RelativePath": "api/Auth/SeedRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

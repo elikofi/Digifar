@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Auth/SeedRoles": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/Register": {
       "post": {
         "tags": [
@@ -14,17 +26,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTO"
+                "$ref": "#/components/schemas/RegisterUserRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTO"
+                "$ref": "#/components/schemas/RegisterUserRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UserDTO"
+                "$ref": "#/components/schemas/RegisterUserRequest"
               }
             }
           }
@@ -39,7 +51,7 @@
   },
   "components": {
     "schemas": {
-      "UserDTO": {
+      "RegisterUserRequest": {
         "type": "object",
         "properties": {
           "firstName": {
@@ -54,15 +66,11 @@
             "type": "string",
             "nullable": true
           },
-          "email": {
+          "passwordHash": {
             "type": "string",
             "nullable": true
           },
           "phoneNumber": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
             "type": "string",
             "nullable": true
           }

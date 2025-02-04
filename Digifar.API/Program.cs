@@ -1,19 +1,14 @@
-using Digifar.API.Common.DependencyInjection;
-using Digifar.API.Common.Exceptions;
-using Digifar.API.Data;
-using Digifar.API.Models.Entities;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
+using Digifar.Application;
+using Digifar.Application.Common.Exceptions;
+using Digifar.Infrastructure;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services
-    .AddDI()
-    .AddJWT(builder.Configuration);
-
+    .AddInfrastructure(builder.Configuration)
+    .AddApplication();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

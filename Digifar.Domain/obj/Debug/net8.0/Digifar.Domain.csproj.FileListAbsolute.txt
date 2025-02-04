@@ -1,0 +1,13 @@
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\bin\Debug\net8.0\Digifar.Domain.deps.json
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\bin\Debug\net8.0\Digifar.Domain.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\bin\Debug\net8.0\Digifar.Domain.pdb
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\obj\Debug\net8.0\Digifar.Domain.csproj.AssemblyReference.cache
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\obj\Debug\net8.0\Digifar.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\obj\Debug\net8.0\Digifar.Domain.AssemblyInfoInputs.cache
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\obj\Debug\net8.0\Digifar.Domain.AssemblyInfo.cs
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\obj\Debug\net8.0\Digifar.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\obj\Debug\net8.0\Digifar.Domain.sourcelink.json
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\obj\Debug\net8.0\Digifar.Domain.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\obj\Debug\net8.0\refint\Digifar.Domain.dll
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\obj\Debug\net8.0\Digifar.Domain.pdb
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Domain\obj\Debug\net8.0\ref\Digifar.Domain.dll

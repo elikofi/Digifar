@@ -34,7 +34,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\Interfaces\Authentication\NewFolder\" />
+    <ProjectReference Include="..\Digifar.Application\Digifar.Application.csproj" />
+    <ProjectReference Include="..\Digifar.Contracts\Digifar.Contracts.csproj" />
+    <ProjectReference Include="..\Digifar.Infrastructure\Digifar.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

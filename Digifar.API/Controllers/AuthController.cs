@@ -1,37 +1,50 @@
-﻿using Digifar.API.Common.Roles;
-using Digifar.API.Models.DTOs;
-using Digifar.API.Models.Entities;
-using Digifar.API.Repositories.Interfaces.UserManagement;
+﻿using Digifar.Application.Authentication.Common;
+using Digifar.Application.Authentication.UserManagement.Commands.Register;
+using Digifar.Application.Common.Interfaces.Persistence;
+using Digifar.Contracts.Authentication;
+using MapsterMapper;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Digifar.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController(IUserRepository _userRepository) : ControllerBase
+    public class AuthController(ISender mediator, IMapper mapper, ILogger<UserDTO> logger, IUserRepository userRepository) : ControllerBase
     {
+        //SEEDING ROLES.
+        [HttpPost("SeedRoles")]
+        public async Task<IActionResult> SeedRoles()
+        {
+            var seedRoles = await userRepository.SeedRoles();
+            return Ok(seedRoles);
+        }
+
         [HttpPost]
         [Route("Register")]
-        public async Task<IActionResult> Register([FromBody] UserDTO user)
+        public async Task<IActionResult> RegisterUser([FromBody] RegisterUserRequest request)
         {
-            var newUser = new User
+            var user = mapper.Map<RegisterUserCommand>(request);
+
+            var authResult = await mediator.Send(user);
+
+            if (authResult.Success is false)
             {
-                FirstName = user.FirstName,
-                LastName = user.LastName,
-                Email = user.Email,
-                UserName = user.UserName,
-                PhoneNumber = user.PhoneNumber,
-                PasswordHash = user.Password
-            };
-
-
-            var result = await _userRepository.RegisterAsync(newUser, UserRoles.MERCHANT);
-
-            if (result.Success is true)
-            {
-                return Ok(result);
+                return BadRequest(authResult.ErrorMessage);
             }
-            return BadRequest(result);
+            return Ok(authResult);
+        }
+
+        [HttpPost]
+        [Route("ReqOtp")]
+        public async Task<IActionResult> RequestOTP([FromBody] RequestOTPRequest request)
+        {
+            var otpResult = await userRepository.RequestOTP(request.PhoneNumber);
+            if (otpResult.Success is false)
+            {
+                return BadRequest(otpResult.ErrorMessage);
+            }
+            return Ok(otpResult);
         }
     }
 }
