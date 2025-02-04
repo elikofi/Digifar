@@ -17,9 +17,8 @@ namespace Digifar.Application.Authentication.UserManagement.Commands.OTP
         {
             //var phoneNumber = mapper.Map<OtpRecord>(command);
 
-            var phoneNumber = otpService.RequestOTP(command.PhoneNumber);
+            return await otpService.RequestOTP(command.PhoneNumber);
 
-            return phoneNumber;
         }
     }
 }
