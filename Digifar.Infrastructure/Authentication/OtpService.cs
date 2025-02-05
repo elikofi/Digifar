@@ -4,18 +4,28 @@ using Digifar.Application.Common.Results;
 using Digifar.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography;
+using Twilio;
+using Twilio.Rest.Api.V2010.Account;
 
 namespace Digifar.Infrastructure.Authentication
 {
 
-    public class OtpService(DigifarDbContext context) : IOtpService
+    public class OtpService : IOtpService
     {
-        private readonly DigifarDbContext _context = context;
+        private readonly DigifarDbContext _context;
 
         //I'll move this to the appsettings later.
         private const int OtpExpirationMinutes = 5;
 
+        //Twilio info... to be moved to a secure place.
+        private const string accountSid = "AC2b602d5660a423d419c9f47267bfbb4a";
+        private const string authToken = "90c78dfdc93c7b1f4e53bada0346aa86";
 
+        public OtpService(DigifarDbContext context)
+        {
+            _context = context;
+            TwilioClient.Init(accountSid, authToken);
+        }
 
         protected static string GenerateOtp()
         {
@@ -25,7 +35,6 @@ namespace Digifar.Infrastructure.Authentication
             int number = (int)(BitConverter.ToUInt32(bytes, 0) % 1000000);
             return number.ToString("D6");
         }
-
 
         public async Task<Result<string>> RequestOTP(string phoneNumber)
         {
@@ -37,7 +46,6 @@ namespace Digifar.Infrastructure.Authentication
                 await _context.SaveChangesAsync();
             }
 
-
             var otp = GenerateOtp();
 
             var otpRecord = new OtpRecord
@@ -45,13 +53,22 @@ namespace Digifar.Infrastructure.Authentication
                 PhoneNumber = phoneNumber,
                 Otp = otp,
                 ExpiryTime = DateTime.UtcNow.AddMinutes(OtpExpirationMinutes)
-                //ExpiryTime = DateTime.UtcNow.AddSeconds(10)
             };
             _context.Otps.Add(otpRecord);
 
             await _context.SaveChangesAsync();
 
-            return Result<string>.SuccessResult(otp);
+            //twilio
+            string fromPhoneNumber = "+233543737196";
+            string toPhoneNumber = phoneNumber;
+
+            var message = MessageResource.Create(
+                body: $"Your six digits OTP is: {otp}. Do not share.",
+                from: new Twilio.Types.PhoneNumber(fromPhoneNumber),
+                to: new Twilio.Types.PhoneNumber(toPhoneNumber)
+            );
+
+            return Result<string>.SuccessResult(message.ToString()!);
         }
 
         public async Task<Result<bool>> VerifyOTP(string phoneNumber, string otp)

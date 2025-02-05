@@ -159,3 +159,4 @@ C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debu
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Digifar.Contracts.pdb
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Digifar.Infrastructure.pdb
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Digifar.Domain.pdb
+C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.API\bin\Debug\net8.0\Twilio.dll
