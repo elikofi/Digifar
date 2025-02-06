@@ -72,7 +72,6 @@ namespace Digifar.Infrastructure.Authentication
 
             await smsService.SendSmsAsync(phoneNumber, $"Your six digits OTP is: {otp}. Do not share.");
 
-
             return Result<string>.SuccessResult(otp);
         }
 
