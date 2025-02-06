@@ -1,4 +1,4 @@
-﻿namespace Digifar.API.Models.JWT
+﻿namespace Digifar.Infrastructure.Authentication
 {
     public class JwtSettings
     {
