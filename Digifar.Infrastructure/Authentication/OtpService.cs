@@ -97,7 +97,7 @@ namespace Digifar.Infrastructure.Authentication
                 return Result<bool>.SuccessResult(true);
             }
 
-            return Result<bool>.ErrorResult("Phonenumber doesn't exist.");
+            return Result<bool>.ErrorResult("Phonenumber doesn't exist.");//
         }
     }
 }
