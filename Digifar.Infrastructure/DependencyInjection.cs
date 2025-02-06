@@ -1,6 +1,4 @@
-﻿using Digifar.API.Models.JWT;
-using Digifar.API.Repositories.Implementation.Authentication;
-using Digifar.Application.Common.Interfaces.Authentication;
+﻿using Digifar.Application.Common.Interfaces.Authentication;
 using Digifar.Application.Common.Interfaces.Persistence;
 using Digifar.Application.Common.Interfaces.Services;
 using Digifar.Domain.Entities;
@@ -28,7 +26,15 @@ namespace Digifar.Infrastructure
             services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IOtpService, OtpService>();
+            services.AddScoped<IMNotifySmsService, MNotifySmsService>();
 
+
+            var smsSettings = new SmsSettings();
+            configuration.Bind(SmsSettings.SectionName, smsSettings);
+
+            services.AddSingleton(Options.Create(smsSettings));
+
+            services.AddHttpClient();
 
 
             services.AddIdentity<User, IdentityRole>()

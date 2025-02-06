@@ -1,5 +1,4 @@
-﻿using Digifar.API.Models.JWT;
-using Digifar.Application.Common.Interfaces.Authentication;
+﻿using Digifar.Application.Common.Interfaces.Authentication;
 using Digifar.Application.Common.Interfaces.Services;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -7,7 +6,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace Digifar.API.Repositories.Implementation.Authentication
+namespace Digifar.Infrastructure.Authentication
 {
     public class JwtTokenGenerator(IOptions<JwtSettings> jwtOptions, IDateTimeProvider dateTimeProvider) : IJwtTokenGenerator
     {
