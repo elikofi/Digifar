@@ -5,8 +5,6 @@ using Digifar.Application.Common.Results;
 using Digifar.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography;
-using Twilio;
-using Twilio.Rest.Api.V2010.Account;
 
 namespace Digifar.Infrastructure.Authentication
 {
@@ -16,27 +14,6 @@ namespace Digifar.Infrastructure.Authentication
 
         //I'll move this to the appsettings later.
         private const int OtpExpirationMinutes = 5;
-
-        #region Twilio
-        //Twilio info... to be moved to a secure place.
-        //private const string accountSid = "AC2b602d5660a423d419c9f47267bfbb4a";
-        //private const string authToken = "90c78dfdc93c7b1f4e53bada0346aa86";
-
-        //public OtpService(DigifarDbContext context)
-        //{
-        //    _context = context;
-        //    TwilioClient.Init(accountSid, authToken);
-        //}
-        ////twilio
-        //string fromPhoneNumber = "+1 812 993 6028";
-        //string toPhoneNumber = phoneNumber;
-
-        //var message = MessageResource.Create(
-        //    body: $"Your six digits OTP is: {otp}. Do not share.",
-        //    from: new Twilio.Types.PhoneNumber(fromPhoneNumber),
-        //    to: new Twilio.Types.PhoneNumber(toPhoneNumber)
-        //);
-        #endregion
 
 
         protected static string GenerateOtp()
