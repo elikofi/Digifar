@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Digifar.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4be2d2358c79dbc39d4f234635d891615006846b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00d9edc13cee422bf2a1a21a70c7b5d591ea5540")]
 [assembly: System.Reflection.AssemblyProductAttribute("Digifar.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Digifar.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

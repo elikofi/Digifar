@@ -1,12 +1,15 @@
 ﻿using Digifar.Application.Authentication.Common;
 using Digifar.Application.Common.Constants;
+using Digifar.Application.Common.Interfaces.Authentication;
 using Digifar.Application.Common.Interfaces.Persistence;
 using Digifar.Application.Common.Results;
 using Digifar.Domain.Common.Errors;
 using Digifar.Domain.Entities;
 using Digifar.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using System.Security.Claims;
 
 namespace Digifar.Infrastructure.Repository.Users
 {
@@ -15,11 +18,56 @@ namespace Digifar.Infrastructure.Repository.Users
         RoleManager<IdentityRole> roleManager,
         DigifarDbContext context,
         SignInManager<User> signInManager,
-        ILogger<UserDTO> logger) : IUserRepository
+        ILogger<UserDTO> logger, IOtpService otpService) : IUserRepository
     {
-        public Task<Result<string>> Login(string phoneNumber)
+        public async Task<Result<UserDTO>> Login(string phoneNumber, string otp)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var userExists = await context.Users.AnyAsync(x => x.PhoneNumber == phoneNumber);
+
+                if (!userExists)
+                    return Result<UserDTO>.ErrorResult(Errors.IncorrectPhonenumber);
+
+                var otpVerificationResult = await otpService.VerifyOTP(phoneNumber, otp);
+
+                if (otpVerificationResult.Success is false)
+                    return Result<UserDTO>.ErrorResult(otpVerificationResult.ErrorMessage!);
+
+                var user = await userManager.Users
+                    .FirstOrDefaultAsync(x =>x.PhoneNumber == phoneNumber);
+
+                if (user == null)
+                    return Result<UserDTO>.ErrorResult(Errors.UserNotFound);
+
+                var userRoles = await userManager.GetRolesAsync(user);
+
+                var authClaims = new List<Claim>
+                    {
+                        new(ClaimTypes.Name, user.UserName!),
+                        new(ClaimTypes.NameIdentifier, user.Id),
+                    };
+
+                foreach (var userRole in userRoles)
+                {
+                    authClaims.Add(new Claim(ClaimTypes.Role, userRole));
+                }
+
+                return Result<UserDTO>.SuccessResult(new UserDTO
+                (
+                    Id: user.Id,
+                    FirstName: user.FirstName,
+                    LastName: user.LastName,
+                    UserName: user.UserName!,
+                    PhoneNumber: user.PhoneNumber!
+                ));
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         //USER REGISTRATION
