@@ -1,6 +1,7 @@
 ﻿using Digifar.Application.Authentication.Common;
 using Digifar.Application.Authentication.UserManagement.Commands.OTP;
 using Digifar.Application.Authentication.UserManagement.Commands.Register;
+using Digifar.Application.Authentication.UserManagement.Queries.Login;
 using Digifar.Application.Common.Interfaces.Persistence;
 using Digifar.Contracts.Authentication;
 using MapsterMapper;
@@ -66,6 +67,22 @@ namespace Digifar.API.Controllers
             }
 
             return Ok(verificationResult);
+        }
+
+        [HttpPost]
+        [Route("Login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        {
+            var mappedRequest = mapper.Map<LoginUserQuery>(request);
+
+            var loginResult = await mediator.Send(mappedRequest);
+
+            if (loginResult.Success is false)
+            {
+                return BadRequest(loginResult.ErrorMessage);
+            }
+
+            return Ok(loginResult);
         }
     }
 }
