@@ -29,7 +29,6 @@
     <Folder Include="Authentication\RoleManagement\Commands\MakeSuperAdmin\" />
     <Folder Include="Authentication\RoleManagement\Queries\" />
     <Folder Include="Authentication\RoleManagement\Models\" />
-    <Folder Include="Authentication\UserManagement\Queries\Login\" />
     <Folder Include="Authentication\UserManagement\Queries\GetUserById\" />
     <Folder Include="Authentication\UserManagement\Queries\GetAllUsers\" />
   </ItemGroup>

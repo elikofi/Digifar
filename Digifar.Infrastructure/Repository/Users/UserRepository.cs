@@ -24,9 +24,10 @@ namespace Digifar.Infrastructure.Repository.Users
         {
             try
             {
-                var userExists = await context.Users.AnyAsync(x => x.PhoneNumber == phoneNumber);
+                var user = await userManager.Users
+                    .FirstOrDefaultAsync(x => x.PhoneNumber == phoneNumber);
 
-                if (!userExists)
+                if (user == null)
                     return Result<UserDTO>.ErrorResult(Errors.IncorrectPhonenumber);
 
                 var otpVerificationResult = await otpService.VerifyOTP(phoneNumber, otp);
@@ -34,19 +35,15 @@ namespace Digifar.Infrastructure.Repository.Users
                 if (otpVerificationResult.Success is false)
                     return Result<UserDTO>.ErrorResult(otpVerificationResult.ErrorMessage!);
 
-                var user = await userManager.Users
-                    .FirstOrDefaultAsync(x =>x.PhoneNumber == phoneNumber);
-
-                if (user == null)
-                    return Result<UserDTO>.ErrorResult(Errors.UserNotFound);
+                await signInManager.SignInAsync(user, isPersistent: false);
 
                 var userRoles = await userManager.GetRolesAsync(user);
 
                 var authClaims = new List<Claim>
-                    {
-                        new(ClaimTypes.Name, user.UserName!),
-                        new(ClaimTypes.NameIdentifier, user.Id),
-                    };
+                        {
+                            new(ClaimTypes.Name, user.UserName!),
+                            new(ClaimTypes.NameIdentifier, user.Id),
+                        };
 
                 foreach (var userRole in userRoles)
                 {
@@ -61,14 +58,14 @@ namespace Digifar.Infrastructure.Repository.Users
                     UserName: user.UserName!,
                     PhoneNumber: user.PhoneNumber!
                 ));
-
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
+                logger.LogError(ex, Errors.SignInFailure);
                 throw;
             }
         }
+
 
         //USER REGISTRATION
         public async Task<Result<string>> RegisterAsync(User user, string role)

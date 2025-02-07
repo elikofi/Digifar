@@ -15,6 +15,10 @@ namespace Digifar.Application.Authentication.UserManagement.Commands.Register
             .Matches("[a-z]").WithMessage("Password must contain at least one lowercase letter.")
             .Matches("[0-9]").WithMessage("Password must contain at least one digit.")
             .Matches("[^a-zA-Z0-9]").WithMessage("Password must contain at least one special character.");
+            RuleFor(x => x.PhoneNumber).NotEmpty().WithMessage("Phonenumber is required.")
+                .MinimumLength(10).WithMessage("Phonenumber has to be of 10 characters.")
+                .MaximumLength(10).WithMessage("Phonenumber has to be of 10 characters.")
+                .Matches(@"^(\+233|0)[235][023456789]\d{7}$");
 
         }
     }
