@@ -18,7 +18,7 @@ namespace Digifar.Application.Authentication.UserManagement.Queries.Login
 
             var newSignIn = signIn.Data.Adapt<UserDTO>();
 
-            var token = jwtTokenGenerator.GenerateToken(newSignIn.PhoneNumber);
+            var token = jwtTokenGenerator.GenerateToken(newSignIn);
 
             var authResult = new AuthenticationResult(newSignIn, token);
 
