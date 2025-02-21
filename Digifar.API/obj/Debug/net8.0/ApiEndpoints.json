@@ -72,5 +72,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Digifar.API.Controllers.Wallets.WalletsController",
+    "Method": "CreateWallet",
+    "RelativePath": "api/Wallets/AddWallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Digifar.Contracts.Wallets.CreateUserWalletRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

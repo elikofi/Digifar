@@ -5,6 +5,7 @@ using Digifar.Domain.Entities;
 using Digifar.Infrastructure.Authentication;
 using Digifar.Infrastructure.Data;
 using Digifar.Infrastructure.Repository.Users;
+using Digifar.Infrastructure.Repository.Wallets;
 using Digifar.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -27,6 +28,7 @@ namespace Digifar.Infrastructure
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IOtpService, OtpService>();
             services.AddScoped<IMNotifySmsService, MNotifySmsService>();
+            services.AddScoped<IWalletRepository, WalletRepository>();
 
             //sms DI
             var smsSettings = new SmsSettings();
