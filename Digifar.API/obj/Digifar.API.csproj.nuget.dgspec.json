@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git Project\\Digifar\\Digifar.API\\Digifar.API.csproj": {}
+    "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Digifar.API.csproj": {}
   },
   "projects": {
-    "C:\\Git Project\\Digifar\\Digifar.API\\Digifar.API.csproj": {
+    "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Digifar.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git Project\\Digifar\\Digifar.API\\Digifar.API.csproj",
+        "projectUniqueName": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Digifar.API.csproj",
         "projectName": "Digifar.API",
-        "projectPath": "C:\\Git Project\\Digifar\\Digifar.API\\Digifar.API.csproj",
-        "packagesPath": "C:\\Users\\rocks\\.nuget\\packages\\",
-        "outputPath": "C:\\Git Project\\Digifar\\Digifar.API\\obj\\",
+        "projectPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Digifar.API.csproj",
+        "packagesPath": "C:\\Users\\ElijahAmoako\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\rocks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ElijahAmoako\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,22 +28,20 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/acsint/_packaging/acsint/nuget/v3/index.json": {},
           "https://pkgs.dev.azure.com/acsint/_packaging/generic_api/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Git Project\\Digifar\\Digifar.Application\\Digifar.Application.csproj": {
-                "projectPath": "C:\\Git Project\\Digifar\\Digifar.Application\\Digifar.Application.csproj"
+              "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Digifar.Application.csproj": {
+                "projectPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Digifar.Application.csproj"
               },
-              "C:\\Git Project\\Digifar\\Digifar.Contracts\\Digifar.Contracts.csproj": {
-                "projectPath": "C:\\Git Project\\Digifar\\Digifar.Contracts\\Digifar.Contracts.csproj"
+              "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Digifar.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Digifar.Contracts.csproj"
               },
-              "C:\\Git Project\\Digifar\\Digifar.Infrastructure\\Digifar.Infrastructure.csproj": {
-                "projectPath": "C:\\Git Project\\Digifar\\Digifar.Infrastructure\\Digifar.Infrastructure.csproj"
+              "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Digifar.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Digifar.Infrastructure.csproj"
               }
             }
           }
@@ -56,7 +55,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -158,25 +158,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git Project\\Digifar\\Digifar.Application\\Digifar.Application.csproj": {
+    "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Digifar.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git Project\\Digifar\\Digifar.Application\\Digifar.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Digifar.Application.csproj",
         "projectName": "Digifar.Application",
-        "projectPath": "C:\\Git Project\\Digifar\\Digifar.Application\\Digifar.Application.csproj",
-        "packagesPath": "C:\\Users\\rocks\\.nuget\\packages\\",
-        "outputPath": "C:\\Git Project\\Digifar\\Digifar.Application\\obj\\",
+        "projectPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Digifar.Application.csproj",
+        "packagesPath": "C:\\Users\\ElijahAmoako\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\rocks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ElijahAmoako\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -186,16 +186,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/acsint/_packaging/acsint/nuget/v3/index.json": {},
           "https://pkgs.dev.azure.com/acsint/_packaging/generic_api/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Git Project\\Digifar\\Digifar.Domain\\Digifar.Domain.csproj": {
-                "projectPath": "C:\\Git Project\\Digifar\\Digifar.Domain\\Digifar.Domain.csproj"
+              "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Domain\\Digifar.Domain.csproj": {
+                "projectPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Domain\\Digifar.Domain.csproj"
               }
             }
           }
@@ -209,7 +207,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -272,25 +271,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git Project\\Digifar\\Digifar.Contracts\\Digifar.Contracts.csproj": {
+    "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Digifar.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git Project\\Digifar\\Digifar.Contracts\\Digifar.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Digifar.Contracts.csproj",
         "projectName": "Digifar.Contracts",
-        "projectPath": "C:\\Git Project\\Digifar\\Digifar.Contracts\\Digifar.Contracts.csproj",
-        "packagesPath": "C:\\Users\\rocks\\.nuget\\packages\\",
-        "outputPath": "C:\\Git Project\\Digifar\\Digifar.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Digifar.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ElijahAmoako\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\rocks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ElijahAmoako\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -300,16 +299,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/acsint/_packaging/acsint/nuget/v3/index.json": {},
           "https://pkgs.dev.azure.com/acsint/_packaging/generic_api/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Git Project\\Digifar\\Digifar.Application\\Digifar.Application.csproj": {
-                "projectPath": "C:\\Git Project\\Digifar\\Digifar.Application\\Digifar.Application.csproj"
+              "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Digifar.Application.csproj": {
+                "projectPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Digifar.Application.csproj"
               }
             }
           }
@@ -323,7 +320,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -344,25 +342,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git Project\\Digifar\\Digifar.Domain\\Digifar.Domain.csproj": {
+    "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Domain\\Digifar.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git Project\\Digifar\\Digifar.Domain\\Digifar.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Domain\\Digifar.Domain.csproj",
         "projectName": "Digifar.Domain",
-        "projectPath": "C:\\Git Project\\Digifar\\Digifar.Domain\\Digifar.Domain.csproj",
-        "packagesPath": "C:\\Users\\rocks\\.nuget\\packages\\",
-        "outputPath": "C:\\Git Project\\Digifar\\Digifar.Domain\\obj\\",
+        "projectPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Domain\\Digifar.Domain.csproj",
+        "packagesPath": "C:\\Users\\ElijahAmoako\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\rocks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ElijahAmoako\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -372,8 +370,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/acsint/_packaging/acsint/nuget/v3/index.json": {},
           "https://pkgs.dev.azure.com/acsint/_packaging/generic_api/nuget/v3/index.json": {}
         },
         "frameworks": {
@@ -391,7 +387,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -422,25 +419,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git Project\\Digifar\\Digifar.Infrastructure\\Digifar.Infrastructure.csproj": {
+    "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Digifar.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git Project\\Digifar\\Digifar.Infrastructure\\Digifar.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Digifar.Infrastructure.csproj",
         "projectName": "Digifar.Infrastructure",
-        "projectPath": "C:\\Git Project\\Digifar\\Digifar.Infrastructure\\Digifar.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\rocks\\.nuget\\packages\\",
-        "outputPath": "C:\\Git Project\\Digifar\\Digifar.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Digifar.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ElijahAmoako\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\rocks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ElijahAmoako\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -450,16 +447,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/acsint/_packaging/acsint/nuget/v3/index.json": {},
           "https://pkgs.dev.azure.com/acsint/_packaging/generic_api/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Git Project\\Digifar\\Digifar.Application\\Digifar.Application.csproj": {
-                "projectPath": "C:\\Git Project\\Digifar\\Digifar.Application\\Digifar.Application.csproj"
+              "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Digifar.Application.csproj": {
+                "projectPath": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Digifar.Application.csproj"
               }
             }
           }
@@ -473,12 +468,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.12, )"
@@ -534,7 +534,6 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
