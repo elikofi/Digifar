@@ -86,6 +86,13 @@ namespace Digifar.Infrastructure.Repository.Users
                         PasswordHash = user.PasswordHash,
                         IsOtpVerified = true,
                         SecurityStamp = Guid.NewGuid().ToString()
+                        //Wallets =
+                        //        [
+                        //            new Wallet
+                        //            {
+                        //                Balance = 0m
+                        //            }
+                        //        ]
 
                     };
 

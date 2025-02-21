@@ -31,6 +31,7 @@
     <Folder Include="Authentication\RoleManagement\Models\" />
     <Folder Include="Authentication\UserManagement\Queries\GetUserById\" />
     <Folder Include="Authentication\UserManagement\Queries\GetAllUsers\" />
+    <Folder Include="Dashboard\WalletManagement\Queries\" />
   </ItemGroup>
 
 </Project>
