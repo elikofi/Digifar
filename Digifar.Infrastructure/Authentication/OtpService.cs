@@ -70,7 +70,7 @@ namespace Digifar.Infrastructure.Authentication
 
             await _context.SaveChangesAsync();
 
-            await smsService.SendSmsAsync(phoneNumber, $"Your six digits OTP is: {otp}. Do not share.");
+            await smsService.SendSmsAsync(phoneNumber, $"Yello Digifar customer, your verification code is: {otp}. Do not share this code with anyone.");
 
             return Result<string>.SuccessResult(otp);
         }

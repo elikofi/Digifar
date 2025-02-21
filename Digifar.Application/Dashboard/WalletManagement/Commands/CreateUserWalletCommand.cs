@@ -8,7 +8,6 @@ namespace Digifar.Application.Dashboard.WalletManagement.Commands
     public record CreateUserWalletCommand
         (
             string UserId,
-            decimal Balance,
             CurrencyType Currency,
             WalletType WalletType
         ) : IRequest<Result<string>>;

@@ -88,5 +88,37 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Digifar.API.Controllers.Wallets.WalletsController",
+    "Method": "DeleteUserWallets",
+    "RelativePath": "api/Wallets/DeleteUserWallet",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "WalletId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Digifar.API.Controllers.Wallets.WalletsController",
+    "Method": "GetUserWallets",
+    "RelativePath": "api/Wallets/GetWalletsOfaUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
