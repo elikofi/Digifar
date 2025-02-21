@@ -1,9 +1,9 @@
-﻿using Digifar.Application.Authentication.Common;
-using Digifar.Application.Common.Interfaces.Persistence;
+﻿using Digifar.Application.Common.Interfaces.Persistence;
 using Digifar.Application.Common.Results;
 using Digifar.Domain.Entities;
 using MapsterMapper;
 using MediatR;
+using UserRoles = Digifar.Application.Authentication.Common.UserRoles;
 
 namespace Digifar.Application.Authentication.UserManagement.Commands.Register
 {

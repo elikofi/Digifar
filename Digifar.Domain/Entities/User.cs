@@ -6,7 +6,7 @@ namespace Digifar.Domain.Entities
     {
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
-        public double Wallet { get; set; } = 0;
         public bool IsOtpVerified { get; set; }
+        public virtual List<Wallet>? Wallets { get; set; } = [];
     }
 }

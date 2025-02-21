@@ -5,7 +5,6 @@ using Digifar.Application.Common.Interfaces.Persistence;
 using Digifar.Application.Common.Results;
 using Digifar.Domain.Common.Errors;
 using Digifar.Domain.Entities;
-using Digifar.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -16,10 +15,11 @@ namespace Digifar.Infrastructure.Repository.Users
     public class UserRepository(
         UserManager<User> userManager,
         RoleManager<IdentityRole> roleManager,
-        DigifarDbContext context,
         SignInManager<User> signInManager,
         ILogger<UserDTO> logger, IOtpService otpService) : IUserRepository
     {
+
+        //LOGIN USER
         public async Task<Result<UserDTO>> Login(string phoneNumber, string otp)
         {
             try
@@ -86,6 +86,13 @@ namespace Digifar.Infrastructure.Repository.Users
                         PasswordHash = user.PasswordHash,
                         IsOtpVerified = true,
                         SecurityStamp = Guid.NewGuid().ToString()
+                        //Wallets =
+                        //        [
+                        //            new Wallet
+                        //            {
+                        //                Balance = 0m
+                        //            }
+                        //        ]
 
                     };
 

@@ -28,13 +28,21 @@ namespace Digifar.Infrastructure
             services.AddScoped<IOtpService, OtpService>();
             services.AddScoped<IMNotifySmsService, MNotifySmsService>();
 
-
+            //sms DI
             var smsSettings = new SmsSettings();
             configuration.Bind(SmsSettings.SectionName, smsSettings);
 
             services.AddSingleton(Options.Create(smsSettings));
 
             services.AddHttpClient();
+
+
+            //email DI
+            var emailSettings = new EmailSettings();
+            configuration.Bind(EmailSettings.SectionName, emailSettings);
+
+            services.AddSingleton(Options.Create(emailSettings));
+
 
 
             services.AddIdentity<User, IdentityRole>()

@@ -1,4 +1,5 @@
-﻿using Digifar.Application.Common.Interfaces.Authentication;
+﻿using Digifar.Application.Authentication.Common;
+using Digifar.Application.Common.Interfaces.Authentication;
 using Digifar.Application.Common.Interfaces.Services;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -13,7 +14,7 @@ namespace Digifar.Infrastructure.Authentication
         private readonly JwtSettings jwtSettings = jwtOptions.Value;
         private readonly IDateTimeProvider dateTimeProvider = dateTimeProvider;
 
-        public string GenerateToken(string phoneNumber)
+        public string GenerateToken(UserDTO user)
         {
             var signingCredentials = new SigningCredentials(
                 new SymmetricSecurityKey(
@@ -23,9 +24,11 @@ namespace Digifar.Infrastructure.Authentication
 
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.Sub, phoneNumber),
-                new Claim(JwtRegisteredClaimNames.Sub, phoneNumber),
-                new Claim(JwtRegisteredClaimNames.PhoneNumber, phoneNumber),
+                new Claim(JwtRegisteredClaimNames.Sub, user.Id),
+                new Claim(JwtRegisteredClaimNames.FamilyName, user.LastName),
+                new Claim(JwtRegisteredClaimNames.GivenName, user.FirstName),
+                new Claim(JwtRegisteredClaimNames.Nickname, user.UserName),
+                new Claim(JwtRegisteredClaimNames.PhoneNumber, user.PhoneNumber),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 

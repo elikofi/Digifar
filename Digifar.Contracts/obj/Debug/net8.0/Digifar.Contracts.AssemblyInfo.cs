@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Digifar.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1d2adf829a25fa07d888d51c570437a9b09339f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42a0fd3a8dd5af321eae45ce58faea4b70e502ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("Digifar.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Digifar.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
