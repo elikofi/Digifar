@@ -171,6 +171,49 @@
           }
         }
       }
+    },
+    "/api/Wallets/GetWalletsOfaUser": {
+      "get": {
+        "tags": [
+          "Wallets"
+        ],
+        "parameters": [
+          {
+            "name": "UserId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Wallets/DeleteUserWallet": {
+      "delete": {
+        "tags": [
+          "Wallets"
+        ],
+        "parameters": [
+          {
+            "name": "WalletId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -181,10 +224,6 @@
           "userId": {
             "type": "string",
             "nullable": true
-          },
-          "balance": {
-            "type": "number",
-            "format": "double"
           },
           "currency": {
             "$ref": "#/components/schemas/CurrencyType"

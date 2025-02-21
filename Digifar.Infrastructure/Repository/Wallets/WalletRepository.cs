@@ -16,12 +16,19 @@ namespace Digifar.Infrastructure.Repository.Wallets
             return Result<string>.SuccessResult("Wallet added successfully.");
         }
 
-        public Task<Result<string>> DeleteWalletAsync(int walletId)
+        public async Task<Result<string>> DeleteWalletAsync(Guid walletId)
         {
-            throw new NotImplementedException();
+            var wallet = await context.Wallets.FindAsync(walletId);
+            if (wallet is null)
+                return Result<string>.ErrorResult("No wallet with this ID exists.");
+
+            context.Wallets.Remove(wallet);
+            await context.SaveChangesAsync();
+
+            return Result<string>.SuccessResult("Deleted successfully.");
         }
 
-        public async Task<Result<Wallet?>> GetWalletByIdAsync(int walletId)
+        public async Task<Result<Wallet?>> GetWalletByIdAsync(Guid walletId)
         {
             var wallet = await context.Wallets.FindAsync(walletId);
 
@@ -31,9 +38,14 @@ namespace Digifar.Infrastructure.Repository.Wallets
             return Result<Wallet?>.SuccessResult(wallet);
         }
 
-        public async Task<List<Wallet>> GetWalletsAsync(string userId)
+        public async Task<Result<List<Wallet?>>> GetWalletsAsync(string userId)
         {
-            return await context.Wallets.Where(w => w.UserId == userId).ToListAsync();
+            var wallets = await context.Wallets.Where(w => w.UserId == userId).AsNoTracking().ToListAsync();
+
+            if (wallets.Count == 0)
+                return Result<List<Wallet?>>.ErrorResult("No wallets found for this user.");
+
+            return Result<List<Wallet?>>.SuccessResult(wallets!);
         }
 
         public Task<Result<string>> UpdateWalletAsync(Wallet wallet)

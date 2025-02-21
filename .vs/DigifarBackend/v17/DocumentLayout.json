@@ -7,32 +7,48 @@
       "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\controllers\\wallets\\walletscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\dashboard\\walletmanagement\\commands\\deleteuserwalletcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\dashboard\\walletmanagement\\commands\\deleteuserwalletcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C29124A-2D64-4B63-B703-51E45C164692}|Digifar.API\\Digifar.API.csproj|solutionrelative:digifar.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3681260-A32E-4BD8-ABEE-E28C6EDED2CF}|Digifar.Infrastructure\\Digifar.Infrastructure.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.infrastructure\\repository\\wallets\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3681260-A32E-4BD8-ABEE-E28C6EDED2CF}|Digifar.Infrastructure\\Digifar.Infrastructure.csproj|solutionrelative:digifar.infrastructure\\repository\\wallets\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\dashboard\\walletmanagement\\commands\\deleteuserwalletcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\dashboard\\walletmanagement\\commands\\deleteuserwalletcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\dashboard\\walletmanagement\\commands\\deleteuserwalletcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\dashboard\\walletmanagement\\commands\\deleteuserwalletcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\dashboard\\walletmanagement\\commands\\createuserwalletcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\dashboard\\walletmanagement\\commands\\createuserwalletcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\dashboard\\walletmanagement\\commands\\createuserwalletcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\dashboard\\walletmanagement\\commands\\createuserwalletcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.contracts\\wallets\\createuserwalletrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|solutionrelative:digifar.contracts\\wallets\\createuserwalletrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\common\\interfaces\\persistence\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\common\\interfaces\\persistence\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.contracts\\wallets\\deleteuserwalletrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|solutionrelative:digifar.contracts\\wallets\\deleteuserwalletrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\dashboard\\walletmanagement\\queries\\getallwalletsofauserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\dashboard\\walletmanagement\\queries\\getallwalletsofauserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.contracts\\wallets\\createuserwalletrequest.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|solutionrelative:digifar.contracts\\wallets\\createuserwalletrequest.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.contracts\\authentication\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9D087A6-F002-4020-896B-56FF03F2213A}|Digifar.Contracts\\Digifar.Contracts.csproj|solutionrelative:digifar.contracts\\authentication\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.application\\dashboard\\walletmanagement\\commands\\createuserwalletcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{928015B9-D39E-4EEA-AEE8-FDE824C73207}|Digifar.Application\\Digifar.Application.csproj|solutionrelative:digifar.application\\dashboard\\walletmanagement\\commands\\createuserwalletcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3681260-A32E-4BD8-ABEE-E28C6EDED2CF}|Digifar.Infrastructure\\Digifar.Infrastructure.csproj|c:\\users\\elijahamoako\\desktop\\digifarproject\\digifarbackend\\digifar.infrastructure\\repository\\wallets\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3681260-A32E-4BD8-ABEE-E28C6EDED2CF}|Digifar.Infrastructure\\Digifar.Infrastructure.csproj|solutionrelative:digifar.infrastructure\\repository\\wallets\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,8 +57,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 255,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 260,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,15 +70,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteUserWalletCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommandValidator.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommandValidator.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommandValidator.cs",
+              "RelativeToolTip": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T17:24:54.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteUserWalletCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommandHandler.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommandHandler.cs",
+              "RelativeToolTip": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T17:19:42.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Digifar.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Digifar.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-21T13:24:51.254Z",
+              "Title": "DeleteUserWalletCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommand.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommand.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommand.cs",
+              "RelativeToolTip": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\DeleteUserWalletCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T17:05:15.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteUserWalletRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Wallets\\DeleteUserWalletRequest.cs",
+              "RelativeDocumentMoniker": "Digifar.Contracts\\Wallets\\DeleteUserWalletRequest.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Wallets\\DeleteUserWalletRequest.cs",
+              "RelativeToolTip": "Digifar.Contracts\\Wallets\\DeleteUserWalletRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T17:02:08.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetAllWalletsOfAUserQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Queries\\GetAllWalletsOfAUserQueryHandler.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Dashboard\\WalletManagement\\Queries\\GetAllWalletsOfAUserQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Queries\\GetAllWalletsOfAUserQueryHandler.cs",
+              "RelativeToolTip": "Digifar.Application\\Dashboard\\WalletManagement\\Queries\\GetAllWalletsOfAUserQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:38:58.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WalletRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Repository\\Wallets\\WalletRepository.cs",
+              "RelativeDocumentMoniker": "Digifar.Infrastructure\\Repository\\Wallets\\WalletRepository.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Repository\\Wallets\\WalletRepository.cs",
+              "RelativeToolTip": "Digifar.Infrastructure\\Repository\\Wallets\\WalletRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T13:07:05.947Z",
               "EditorCaption": ""
             },
             {
@@ -73,14 +154,40 @@
               "RelativeDocumentMoniker": "Digifar.API\\Controllers\\Wallets\\WalletsController.cs",
               "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Controllers\\Wallets\\WalletsController.cs",
               "RelativeToolTip": "Digifar.API\\Controllers\\Wallets\\WalletsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwDcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T13:17:10.388Z",
+              "WhenOpened": "2025-02-21T13:33:16.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "CreateUserWalletRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Wallets\\CreateUserWalletRequest.cs",
+              "RelativeDocumentMoniker": "Digifar.Contracts\\Wallets\\CreateUserWalletRequest.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Wallets\\CreateUserWalletRequest.cs",
+              "RelativeToolTip": "Digifar.Contracts\\Wallets\\CreateUserWalletRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T13:36:22.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IWalletRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Common\\Interfaces\\Persistence\\IWalletRepository.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Common\\Interfaces\\Persistence\\IWalletRepository.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Common\\Interfaces\\Persistence\\IWalletRepository.cs",
+              "RelativeToolTip": "Digifar.Application\\Common\\Interfaces\\Persistence\\IWalletRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T13:37:25.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "RegisterUserRequest.cs",
               "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Authentication\\RegisterUserRequest.cs",
               "RelativeDocumentMoniker": "Digifar.Contracts\\Authentication\\RegisterUserRequest.cs",
@@ -90,74 +197,35 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T13:13:09.147Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 195,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateUserWalletRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Wallets\\CreateUserWalletRequest.cs",
-              "RelativeDocumentMoniker": "Digifar.Contracts\\Wallets\\CreateUserWalletRequest.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Contracts\\Wallets\\CreateUserWalletRequest.cs",
-              "RelativeToolTip": "Digifar.Contracts\\Wallets\\CreateUserWalletRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CreateUserWalletCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommandHandler.cs",
+              "RelativeDocumentMoniker": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommandHandler.cs",
+              "RelativeToolTip": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T13:13:05.665Z",
+              "WhenOpened": "2025-02-21T17:20:38.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CreateUserWalletCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommandValidator.cs",
-              "RelativeDocumentMoniker": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommandValidator.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommandValidator.cs",
-              "RelativeToolTip": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T13:10:19.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WalletRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Repository\\Wallets\\WalletRepository.cs",
-              "RelativeDocumentMoniker": "Digifar.Infrastructure\\Repository\\Wallets\\WalletRepository.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Infrastructure\\Repository\\Wallets\\WalletRepository.cs",
-              "RelativeToolTip": "Digifar.Infrastructure\\Repository\\Wallets\\WalletRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T13:07:05.947Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Digifar.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Digifar.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T13:17:17.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "CreateUserWalletCommand.cs",
               "DocumentMoniker": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommand.cs",
               "RelativeDocumentMoniker": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommand.cs",
               "ToolTip": "C:\\Users\\ElijahAmoako\\Desktop\\DigifarProject\\DigifarBackend\\Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommand.cs",
               "RelativeToolTip": "Digifar.Application\\Dashboard\\WalletManagement\\Commands\\CreateUserWalletCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T13:13:45.329Z",
               "EditorCaption": ""
