@@ -24,6 +24,7 @@ namespace Digifar.Infrastructure.Authentication
             var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub, phoneNumber),
+                new Claim(JwtRegisteredClaimNames.Sub, phoneNumber),
                 new Claim(JwtRegisteredClaimNames.PhoneNumber, phoneNumber),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
