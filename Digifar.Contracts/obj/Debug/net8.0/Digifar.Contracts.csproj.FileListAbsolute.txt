@@ -16,3 +16,21 @@ C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Contracts\ob
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Contracts\obj\Debug\net8.0\refint\Digifar.Contracts.dll
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Contracts\obj\Debug\net8.0\Digifar.Contracts.pdb
 C:\Users\ElijahAmoako\Desktop\DigifarProject\DigifarBackend\Digifar.Contracts\obj\Debug\net8.0\ref\Digifar.Contracts.dll
+C:\Git Project\Digifar\Digifar.Contracts\bin\Debug\net8.0\Digifar.Contracts.deps.json
+C:\Git Project\Digifar\Digifar.Contracts\bin\Debug\net8.0\Digifar.Contracts.dll
+C:\Git Project\Digifar\Digifar.Contracts\bin\Debug\net8.0\Digifar.Contracts.pdb
+C:\Git Project\Digifar\Digifar.Contracts\bin\Debug\net8.0\Digifar.Application.dll
+C:\Git Project\Digifar\Digifar.Contracts\bin\Debug\net8.0\Digifar.Domain.dll
+C:\Git Project\Digifar\Digifar.Contracts\bin\Debug\net8.0\Digifar.Application.pdb
+C:\Git Project\Digifar\Digifar.Contracts\bin\Debug\net8.0\Digifar.Domain.pdb
+C:\Git Project\Digifar\Digifar.Contracts\obj\Debug\net8.0\Digifar.Contracts.csproj.AssemblyReference.cache
+C:\Git Project\Digifar\Digifar.Contracts\obj\Debug\net8.0\Digifar.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git Project\Digifar\Digifar.Contracts\obj\Debug\net8.0\Digifar.Contracts.AssemblyInfoInputs.cache
+C:\Git Project\Digifar\Digifar.Contracts\obj\Debug\net8.0\Digifar.Contracts.AssemblyInfo.cs
+C:\Git Project\Digifar\Digifar.Contracts\obj\Debug\net8.0\Digifar.Contracts.csproj.CoreCompileInputs.cache
+C:\Git Project\Digifar\Digifar.Contracts\obj\Debug\net8.0\Digifar.Contracts.sourcelink.json
+C:\Git Project\Digifar\Digifar.Contracts\obj\Debug\net8.0\Digifar..99894893.Up2Date
+C:\Git Project\Digifar\Digifar.Contracts\obj\Debug\net8.0\Digifar.Contracts.dll
+C:\Git Project\Digifar\Digifar.Contracts\obj\Debug\net8.0\refint\Digifar.Contracts.dll
+C:\Git Project\Digifar\Digifar.Contracts\obj\Debug\net8.0\Digifar.Contracts.pdb
+C:\Git Project\Digifar\Digifar.Contracts\obj\Debug\net8.0\ref\Digifar.Contracts.dll
