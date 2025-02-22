@@ -1,5 +1,6 @@
 ﻿using Digifar.Application.Common.Interfaces.Persistence;
 using Digifar.Application.Common.Results;
+using Digifar.Application.Dashboard.WalletManagement.Models;
 using Digifar.Domain.Entities;
 using Digifar.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -38,14 +39,30 @@ namespace Digifar.Infrastructure.Repository.Wallets
             return Result<Wallet?>.SuccessResult(wallet);
         }
 
-        public async Task<Result<List<Wallet?>>> GetWalletsAsync(string userId)
+        public async Task<Result<List<WalletDTO>>> GetWalletsAsync(string userId)
         {
-            var wallets = await context.Wallets.Where(w => w.UserId == userId).AsNoTracking().ToListAsync();
+            var wallets = await context.Wallets
+                                     .Where(w => w.UserId == userId)
+                                     .AsNoTracking()
+                                     .Select(w => new WalletDTO
+                                     {
+                                         WalletId = w.WalletId,
+                                         UserId = w.UserId!,
+                                         FirstName = w.User!.FirstName,
+                                         LastName = w.User!.LastName,
+                                         Balance = w.Balance,
+                                         Currency = w.Currency,
+                                         WalletType = w.WalletType,
+                                         IsLocked = w.IsLocked,
+                                         CreatedAt = w.CreatedAt,
+                                         UpdatedAt = w.UpdatedAt
+                                     })
+                                     .ToListAsync();
 
             if (wallets.Count == 0)
-                return Result<List<Wallet?>>.ErrorResult("No wallets found for this user.");
+                return Result<List<WalletDTO>>.ErrorResult("No wallets found for this user.");
 
-            return Result<List<Wallet?>>.SuccessResult(wallets!);
+            return Result<List<WalletDTO>>.SuccessResult(wallets);
         }
 
         public Task<Result<string>> UpdateWalletAsync(Wallet wallet)
