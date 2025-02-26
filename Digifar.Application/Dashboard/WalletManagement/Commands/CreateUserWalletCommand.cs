@@ -1,5 +1,4 @@
-﻿
-using Digifar.Application.Common.Results;
+﻿using Digifar.Application.Common.Results;
 using Digifar.Domain.Entities;
 using MediatR;
 

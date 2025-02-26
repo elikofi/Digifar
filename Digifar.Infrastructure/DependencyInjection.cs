@@ -15,6 +15,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Digifar.Infrastructure.Repository.KycVerification;
+using Digifar.Infrastructure.Repository.Merchants;
 
 namespace Digifar.Infrastructure
 {
@@ -29,6 +31,8 @@ namespace Digifar.Infrastructure
             services.AddScoped<IOtpService, OtpService>();
             services.AddScoped<IMNotifySmsService, MNotifySmsService>();
             services.AddScoped<IWalletRepository, WalletRepository>();
+            services.AddScoped<IMerchantRepository, MerchantRepository>();
+            services.AddScoped<IKycRepository, KycRepository>();
 
             //sms DI
             var smsSettings = new SmsSettings();
