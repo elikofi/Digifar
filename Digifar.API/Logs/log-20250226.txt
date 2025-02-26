@@ -1,0 +1,162 @@
+2025-02-26 11:25:40.739 +00:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-02-26 11:25:40.854 +00:00 [WRN] The WebRootPath was not found: C:\Nacasky\Backend.Api.Digifar\Digifar.API\wwwroot. Static files may be unavailable.
+2025-02-26 11:25:41.117 +00:00 [INF] User profile is available. Using 'C:\Users\rocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 11:25:41.851 +00:00 [INF] Now listening on: http://localhost:5088
+2025-02-26 11:25:41.872 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-26 11:25:41.875 +00:00 [INF] Hosting environment: Development
+2025-02-26 11:25:41.877 +00:00 [INF] Content root path: C:\Nacasky\Backend.Api.Digifar\Digifar.API
+2025-02-26 11:25:42.035 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger - null null
+2025-02-26 11:25:42.236 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger - 301 0 null 204.2681ms
+2025-02-26 11:25:42.262 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/index.html - null null
+2025-02-26 11:25:42.507 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/index.html - 200 null text/html;charset=utf-8 244.4604ms
+2025-02-26 11:25:42.662 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-26 11:25:42.663 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/swagger-ui-bundle.js - null null
+2025-02-26 11:25:42.663 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/index.css - null null
+2025-02-26 11:25:42.670 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/index.js - null null
+2025-02-26 11:25:42.664 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/swagger-ui.css - null null
+2025-02-26 11:25:42.710 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/index.js - 200 null application/javascript;charset=utf-8 40.2729ms
+2025-02-26 11:25:42.723 +00:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-02-26 11:25:42.760 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-26 11:25:42.795 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/index.css - 200 202 text/css 132.1876ms
+2025-02-26 11:25:42.817 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 155.0389ms
+2025-02-26 11:25:42.760 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-26 11:25:42.835 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/swagger-ui.css - 200 152035 text/css 171.102ms
+2025-02-26 11:25:42.839 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-26 11:25:42.848 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 184.3156ms
+2025-02-26 11:25:43.266 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/v1/swagger.json - null null
+2025-02-26 11:25:43.319 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/favicon-32x32.png - null null
+2025-02-26 11:25:43.324 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-26 11:25:43.328 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/favicon-32x32.png - 200 628 image/png 9.1372ms
+2025-02-26 11:25:43.622 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 355.0019ms
+2025-02-26 11:26:01.160 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/index.html - null null
+2025-02-26 11:26:01.168 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/index.html - 200 null text/html;charset=utf-8 7.5685ms
+2025-02-26 11:26:01.278 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/index.js - null null
+2025-02-26 11:26:01.286 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/index.js - 200 null application/javascript;charset=utf-8 7.9627ms
+2025-02-26 11:26:01.388 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/v1/swagger.json - null null
+2025-02-26 11:26:01.401 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.5723ms
+2025-02-26 11:34:46.595 +00:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-02-26 11:34:46.669 +00:00 [WRN] The WebRootPath was not found: C:\Nacasky\Backend.Api.Digifar\Digifar.API\wwwroot. Static files may be unavailable.
+2025-02-26 11:34:46.750 +00:00 [INF] User profile is available. Using 'C:\Users\rocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 11:34:47.085 +00:00 [INF] Now listening on: http://localhost:5088
+2025-02-26 11:34:47.105 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-26 11:34:47.108 +00:00 [INF] Hosting environment: Development
+2025-02-26 11:34:47.109 +00:00 [INF] Content root path: C:\Nacasky\Backend.Api.Digifar\Digifar.API
+2025-02-26 11:34:47.183 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/index.html - null null
+2025-02-26 11:34:47.276 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 11:34:47.282 +00:00 [INF] HTTP GET /swagger/index.html responded 404 in 4.5684 ms
+2025-02-26 11:34:47.289 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/index.html - 404 0 null 106.5342ms
+2025-02-26 11:34:47.308 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5088/swagger/index.html, Response status code: 404
+2025-02-26 11:34:51.511 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/index.html - null null
+2025-02-26 11:34:51.530 +00:00 [INF] HTTP GET /swagger/index.html responded 404 in 0.6240 ms
+2025-02-26 11:34:51.571 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/index.html - 404 0 null 60.9765ms
+2025-02-26 11:34:51.576 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5088/swagger/index.html, Response status code: 404
+2025-02-26 11:34:53.077 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/index.html - null null
+2025-02-26 11:34:53.109 +00:00 [INF] HTTP GET /swagger/index.html responded 404 in 0.2212 ms
+2025-02-26 11:34:53.113 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/index.html - 404 0 null 35.8935ms
+2025-02-26 11:34:53.127 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5088/swagger/index.html, Response status code: 404
+2025-02-26 11:37:56.764 +00:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-02-26 11:37:56.813 +00:00 [WRN] The WebRootPath was not found: C:\Nacasky\Backend.Api.Digifar\Digifar.API\wwwroot. Static files may be unavailable.
+2025-02-26 11:37:56.855 +00:00 [INF] User profile is available. Using 'C:\Users\rocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 11:37:57.193 +00:00 [INF] Now listening on: http://localhost:5088
+2025-02-26 11:37:57.196 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-26 11:37:57.197 +00:00 [INF] Hosting environment: Development
+2025-02-26 11:37:57.199 +00:00 [INF] Content root path: C:\Nacasky\Backend.Api.Digifar\Digifar.API
+2025-02-26 11:37:57.462 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/index.html - null null
+2025-02-26 11:37:57.535 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 11:37:57.541 +00:00 [INF] HTTP GET /swagger/index.html responded 404 in 6.4694 ms
+2025-02-26 11:37:57.550 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/index.html - 404 0 null 92.4955ms
+2025-02-26 11:37:57.574 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5088/swagger/index.html, Response status code: 404
+2025-02-26 11:38:14.150 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/scalar - null null
+2025-02-26 11:38:14.168 +00:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-02-26 11:38:14.229 +00:00 [INF] Executing RedirectResult, redirecting to scalar/.
+2025-02-26 11:38:14.234 +00:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-02-26 11:38:14.237 +00:00 [INF] HTTP GET /scalar responded 302 in 72.4474 ms
+2025-02-26 11:38:14.239 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/scalar - 302 0 null 89.7799ms
+2025-02-26 11:38:14.248 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/scalar/ - null null
+2025-02-26 11:38:14.258 +00:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-02-26 11:38:14.400 +00:00 [INF] Write content with HTTP Response ContentType of text/html
+2025-02-26 11:38:14.406 +00:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-02-26 11:38:14.409 +00:00 [INF] HTTP GET /scalar/ responded 200 in 152.1952 ms
+2025-02-26 11:38:14.415 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/scalar/ - 200 1051 text/html 167.1018ms
+2025-02-26 11:38:14.458 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/scalar/scalar.aspnetcore.js - null null
+2025-02-26 11:38:14.469 +00:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-02-26 11:38:14.489 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/scalar/scalar.js - null null
+2025-02-26 11:38:14.522 +00:00 [INF] Sending file with download name ''.
+2025-02-26 11:38:14.550 +00:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2025-02-26 11:38:14.565 +00:00 [INF] Sending file with download name ''.
+2025-02-26 11:38:14.578 +00:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-02-26 11:38:14.581 +00:00 [INF] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 111.3429 ms
+2025-02-26 11:38:14.584 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/scalar/scalar.aspnetcore.js - 200 418 text/javascript 125.9586ms
+2025-02-26 11:38:14.686 +00:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2025-02-26 11:38:14.692 +00:00 [INF] HTTP GET /scalar/scalar.js responded 200 in 141.9662 ms
+2025-02-26 11:38:14.701 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/scalar/scalar.js - 200 2711484 text/javascript 218.565ms
+2025-02-26 11:38:14.782 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/v1/swagger.json - null null
+2025-02-26 11:38:15.230 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 448.4242ms
+2025-02-26 11:38:16.315 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/favicon.ico - null null
+2025-02-26 11:38:16.320 +00:00 [INF] HTTP GET /favicon.ico responded 404 in 0.1184 ms
+2025-02-26 11:38:16.324 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/favicon.ico - 404 0 null 8.1101ms
+2025-02-26 11:38:16.328 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5088/favicon.ico, Response status code: 404
+2025-02-26 15:31:35.089 +00:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-02-26 15:31:35.307 +00:00 [WRN] The WebRootPath was not found: C:\Nacasky\Backend.Api.Digifar\Digifar.API\wwwroot. Static files may be unavailable.
+2025-02-26 15:31:35.744 +00:00 [INF] User profile is available. Using 'C:\Users\rocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 15:31:36.846 +00:00 [INF] Now listening on: http://localhost:5088
+2025-02-26 15:31:36.865 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-26 15:31:36.873 +00:00 [INF] Hosting environment: Development
+2025-02-26 15:31:36.885 +00:00 [INF] Content root path: C:\Nacasky\Backend.Api.Digifar\Digifar.API
+2025-02-26 15:31:37.296 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/scalar/ - null null
+2025-02-26 15:31:37.656 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 15:31:37.683 +00:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-02-26 15:31:38.055 +00:00 [INF] Write content with HTTP Response ContentType of text/html
+2025-02-26 15:31:38.102 +00:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-02-26 15:31:38.129 +00:00 [INF] HTTP GET /scalar/ responded 200 in 452.7806 ms
+2025-02-26 15:31:38.197 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/scalar/scalar.js - null null
+2025-02-26 15:31:38.264 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/scalar/ - 200 1051 text/html 973.0718ms
+2025-02-26 15:31:38.279 +00:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2025-02-26 15:31:38.296 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/scalar/scalar.aspnetcore.js - null null
+2025-02-26 15:31:38.323 +00:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-02-26 15:31:38.329 +00:00 [INF] Setting HTTP status code 304.
+2025-02-26 15:31:38.329 +00:00 [INF] Setting HTTP status code 304.
+2025-02-26 15:31:38.338 +00:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2025-02-26 15:31:38.341 +00:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-02-26 15:31:38.343 +00:00 [INF] HTTP GET /scalar/scalar.js responded 304 in 64.5541 ms
+2025-02-26 15:31:38.347 +00:00 [INF] HTTP GET /scalar/scalar.aspnetcore.js responded 304 in 24.6591 ms
+2025-02-26 15:31:38.359 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/scalar/scalar.js - 304 null null 162.188ms
+2025-02-26 15:31:38.366 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/scalar/scalar.aspnetcore.js - 304 null null 69.7372ms
+2025-02-26 15:31:38.474 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/v1/swagger.json - null null
+2025-02-26 15:31:39.089 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/favicon.ico - null null
+2025-02-26 15:31:39.098 +00:00 [INF] HTTP GET /favicon.ico responded 404 in 0.4582 ms
+2025-02-26 15:31:39.106 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/favicon.ico - 404 0 null 17.0119ms
+2025-02-26 15:31:39.126 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5088/favicon.ico, Response status code: 404
+2025-02-26 15:31:39.131 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 656.9126ms
+2025-02-26 15:37:26.559 +00:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-02-26 15:37:26.722 +00:00 [WRN] The WebRootPath was not found: C:\Nacasky\Backend.Api.Digifar\Digifar.API\wwwroot. Static files may be unavailable.
+2025-02-26 15:37:26.856 +00:00 [INF] User profile is available. Using 'C:\Users\rocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 15:37:27.588 +00:00 [INF] Now listening on: http://localhost:5088
+2025-02-26 15:37:27.593 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-26 15:37:27.596 +00:00 [INF] Hosting environment: Development
+2025-02-26 15:37:27.599 +00:00 [INF] Content root path: C:\Nacasky\Backend.Api.Digifar\Digifar.API
+2025-02-26 15:37:28.311 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/index.html - null null
+2025-02-26 15:37:28.485 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 15:37:28.504 +00:00 [INF] HTTP GET /swagger/index.html responded 404 in 12.9917 ms
+2025-02-26 15:37:28.521 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/index.html - 404 0 null 215.4086ms
+2025-02-26 15:37:28.553 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5088/swagger/index.html, Response status code: 404
+2025-02-26 15:37:58.542 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/scalar/ - null null
+2025-02-26 15:37:58.589 +00:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-02-26 15:37:58.722 +00:00 [INF] Write content with HTTP Response ContentType of text/html
+2025-02-26 15:37:58.724 +00:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-02-26 15:37:58.725 +00:00 [INF] HTTP GET /scalar/ responded 200 in 153.2180 ms
+2025-02-26 15:37:58.729 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/scalar/ - 200 1051 text/html 186.8922ms
+2025-02-26 15:37:58.750 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/scalar/scalar.js - null null
+2025-02-26 15:37:58.751 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/scalar/scalar.aspnetcore.js - null null
+2025-02-26 15:37:58.757 +00:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2025-02-26 15:37:58.759 +00:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-02-26 15:37:58.782 +00:00 [INF] Setting HTTP status code 304.
+2025-02-26 15:37:58.782 +00:00 [INF] Setting HTTP status code 304.
+2025-02-26 15:37:58.784 +00:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-02-26 15:37:58.785 +00:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2025-02-26 15:37:58.787 +00:00 [INF] HTTP GET /scalar/scalar.aspnetcore.js responded 304 in 28.1880 ms
+2025-02-26 15:37:58.789 +00:00 [INF] HTTP GET /scalar/scalar.js responded 304 in 31.8753 ms
+2025-02-26 15:37:58.792 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/scalar/scalar.aspnetcore.js - 304 null null 40.6958ms
+2025-02-26 15:37:58.796 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/scalar/scalar.js - 304 null null 45.4659ms
+2025-02-26 15:37:58.842 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/swagger/v1/swagger.json - null null
+2025-02-26 15:37:59.085 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 242.8873ms

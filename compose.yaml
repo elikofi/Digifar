@@ -1,6 +1,0 @@
-﻿services:
-  digifar.api:
-    image: digifar.api
-    build:
-      context: .
-      dockerfile: Digifar.API/Dockerfile
